@@ -17,6 +17,8 @@ public class LogInPage {
 	private WebElement logInButton;
 	@FindBy(xpath="//a[@class='nav-link' and @id='nameofuser']")
 	private WebElement welcomeText;
+	@FindBy(xpath="//a[@class='nav-link' and @id='nameofuser']")
+	private WebElement welcome;
 	//Initilization this private data members through constructor
 	public LogInPage(WebDriver driver)
 	{
